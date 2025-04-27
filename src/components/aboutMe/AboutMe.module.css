@@ -1,0 +1,11 @@
+.aboutMe{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+}
+
+.titleAboutMe{
+    border-radius: 14px;
+width: 496px;
+height: 822px;
+background: #2c2c2c;
+}

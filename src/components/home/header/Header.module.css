@@ -1,0 +1,7 @@
+.header{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    height: 48px;
+}

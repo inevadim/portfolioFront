@@ -1,0 +1,9 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1180px;
+    height: 570px;
+    color: #00C4F0;
+    /* background-color: rgb(54, 54, 54); */
+}
