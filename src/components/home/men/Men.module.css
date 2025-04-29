@@ -1,0 +1,42 @@
+.men{
+    width: 632px;
+height: 674px;
+/* background-color: green; */
+overflow: hidden;
+}
+
+.ps{
+    position: relative;
+    top:-200px;
+    left: 85px;
+}
+
+.code{
+    position: relative;
+    top:-700px;
+    left:110px;
+}
+
+.ui{
+    position: relative;
+    top:-840px;
+    left:440px;
+}
+
+.ux{
+    position: relative;
+    top:-460px;
+    left:50px;
+}
+
+.blueCircle{
+    position: relative;
+    top:0px;
+    left: 50px;
+}
+
+.menImg{
+    position: relative;
+    top:-900px;
+    left: 170px;
+}

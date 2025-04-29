@@ -1,11 +1,71 @@
+.whiteCircle{
+    position: relative;
+    /* overflow: hidden; */
+    top: -850px;
+    left: -210px;
+    z-index: 1;
+}
+
+.blueCircle{
+    position: relative;
+    top: -1720px;
+    left: 400px;
+}
+
+.yellowCircle{
+    position: relative;
+    top: -1600px;
+    left: 600px;
+}
+
+.rightImg{
+    position: relative;
+    top:150px;
+    left: 0px;
+}
+
+.wrapper{
+    /* background-color: rgb(54, 54, 54); */
+    display: flex; 
+    flex-direction:column ;
+    /* position: relative; */
+    /* height: 800px; */
+    max-height: 850px;
+}
+
 .aboutMe{
-    background-color: rgb(54, 54, 54);
+    /* background-color: rgb(54, 54, 54); */
     display: flex;
+    /* overflow: hidden; */
+    /* justify-content: center; */
+    /* background-color: red; */
+    width: 1102px;
+height: 749px;
+    
+}
+
+.title{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    font-weight: 400;
+font-size: 20px;
+color: #e4e4e4;
+font-family:  "NEXT ART", sans-serif;
 }
 
 .titleAboutMe{
     border-radius: 14px;
-width: 496px;
-height: 822px;
+/* width: 416px; */
+height: 700px;
+width: 400px;
 background: #2c2c2c;
+font-weight: 300;
+font-size: 20px;
+letter-spacing: 0.01em;
+color: #fff;
+font-family: "Arodora Pro", sans-serif;
+padding-left: 40px;
+padding-right: 40px;
+z-index: 2;
 }

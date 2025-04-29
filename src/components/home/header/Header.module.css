@@ -2,6 +2,8 @@
     /* background-color: aquamarine; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 1110px;
     height: 48px;
+    padding-top: 10px;
 }
