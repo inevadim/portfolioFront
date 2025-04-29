@@ -20,38 +20,38 @@ function Portfolio() {
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <span><a href='#'>Look Project</a></span>
+                <span className={styles.nameProject}>Name Project</span>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
                 <span>Name Project</span>
-                <a>Look Project</a>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
                 <span>Name Project</span>
-                <a>Look Project</a>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
                 <span>Name Project</span>
-                <a>Look Project</a>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
                 <span>Name Project</span>
-                <a>Look Project</a>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
           <div className={styles.itemSlider}>
             <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
                 <span>Name Project</span>
-                <a>Look Project</a>
+                <a className={styles.aLookProject} href='#'>Look Project</a>
           </div>
 
         </Slider>
