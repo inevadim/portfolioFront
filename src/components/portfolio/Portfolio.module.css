@@ -23,7 +23,7 @@ margin-top: 30px;
 
 .portfolio{
     width: 70%;
-    height: 400px;
+    height: 450px;
     margin-top: 60px;
 }
 
@@ -49,9 +49,9 @@ margin-top: 30px;
     border-radius: 20px;
 }
 
-.nameProject{
+/* .nameProject{
     
-}
+} */
 
 .aLookProject{
     text-decoration: none;
