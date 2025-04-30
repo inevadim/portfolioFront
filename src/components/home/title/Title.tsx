@@ -12,7 +12,7 @@ function Title() {
             <h1>I’M FRONTEND DEVELOPER</h1>
             <h3>I've been doing web design, front-end and back-end development for a year now. Do you need a website design, site layout, or maybe a turnkey website? Then contact me</h3>
             <a className={styles.button} href='#' onClick={()=>setModalActive(true)}>CONTACT ME</a>
-            <Modal active={modalActive} setActive={setModalActive}/>
+            <Modal active={modalActive} setActiveModal={setModalActive}/>
         </div>
     )
 }
