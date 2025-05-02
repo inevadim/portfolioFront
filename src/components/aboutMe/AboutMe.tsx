@@ -7,12 +7,7 @@ import yellowCircle from "../../assets/img/svg/yellowCircle.svg";
 function AboutMe() {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.aboutMe}>
-
-
-
-                {/* <BlueCircle width={100} height={100}/> */}
-              
+            <div className={styles.aboutMe}>   
                 <div className={styles.leftImg}>
                     <CardImg />
                     <CardImg />
@@ -23,12 +18,7 @@ function AboutMe() {
                 </div>
                 <div className={styles.rightImg}>
                     <CardImg />
-                    
-                    
                 </div>
-             
-                    
-                
             </div>
             <img className={styles.whiteCircle} src={whiteCircle} alt="whiteCircle" width={800}/>
             <img className={styles.yellowCircle} src={yellowCircle} alt="yellowCircle" width={400}/>
