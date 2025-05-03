@@ -25,18 +25,15 @@
         box-shadow: 0 2px 13px 0 rgba(226, 158, 0, 0.48);
         background: linear-gradient(315deg, #e2a300 0%, #e29500 100%);
         font-weight: 700;
-        font-size: 18px;
+        font-size: 20px;
         color: #000;
+        text-shadow: 1px 1px 3px #7a0a46;
         padding: 20px 50px 20px 50px;
     }
 
-    a:active {
-        color: #000;
-    }
-
     a:hover {
-        color: #f06292;
-        text-shadow: 2px 2px 4px #880e4f;
+        color: #d63a6e;
+        text-shadow: 1px 1px 3px #7a0a46;
     }
 
 }
