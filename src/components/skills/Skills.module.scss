@@ -8,3 +8,11 @@
     padding-top: 50px;
     padding-bottom: 80px;
 }
+
+@media (max-width: 1200px) {
+    .skills {
+        width: 90%;
+        height: 850px;
+        // background-color: aqua;
+    }
+}

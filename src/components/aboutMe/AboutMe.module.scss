@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: column;
     max-height: 850px;
+    // background-color: red;
 
     .aboutMe {
         display: flex;
         width: 1102px;
         height: 749px;
+        // background-color: #f06292;
 
         .titleAboutMe {
             border-radius: 14px;
@@ -43,18 +45,52 @@
         top: -850px;
         left: -210px;
         z-index: 1;
+        width: 800px;
     }
 
     .blueCircle {
         position: relative;
         top: -1720px;
         left: 400px;
+        width: 650px;
     }
 
     .yellowCircle {
         position: relative;
         top: -1600px;
         left: 600px;
+        width: 400px;
     }
 
+}
+
+@media (max-width: 1110px) {
+    .wrapper {
+        .aboutMe {
+            width: 800px;
+
+            .leftImg {
+                display: none;
+            }
+        }
+
+        .whiteCircle {
+            top: -650px;
+            left: -210px;
+            z-index: 1;
+            width: 500px;
+        }
+
+        .blueCircle {
+            top: -1220px;
+            left: 350px;
+            width: 450px;
+        }
+
+        .yellowCircle {
+            top: -1200px;
+            left: 350px;
+            width: 350px;
+        }
+    }
 }

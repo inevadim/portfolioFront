@@ -20,9 +20,9 @@ function AboutMe() {
                     <CardImg />
                 </div>
             </div>
-            <img className={styles.whiteCircle} src={whiteCircle} alt="whiteCircle" width={800} />
-            <img className={styles.yellowCircle} src={yellowCircle} alt="yellowCircle" width={400} />
-            <img className={styles.blueCircle} src={blueCircle} alt="Blue circle" width={650} />
+            <img className={styles.whiteCircle} src={whiteCircle} alt="whiteCircle" />
+            <img className={styles.yellowCircle} src={yellowCircle} alt="yellowCircle" />
+            <img className={styles.blueCircle} src={blueCircle} alt="Blue circle" />
         </div>
     )
 }

@@ -1,12 +1,12 @@
 .men {
     width: 632px;
     height: 674px;
-    overflow: hidden;
 
     .blueCircle {
         position: relative;
         top: 0px;
         left: 50px;
+        width: 600px;
     }
 
     .ps {
@@ -37,6 +37,45 @@
         position: relative;
         top: -900px;
         left: 170px;
+        width: 350px;
     }
+}
 
+@media (max-width: 1110px) {
+    .men {
+        width: 400px;
+        height: 574px;
+
+        .blueCircle {
+            top: 100px;
+            left: -20px;
+            width: 450px;
+        }
+
+        .menImg {
+            top: -680px;
+            left: 70px;
+            width: 300px;
+        }
+
+        .ps {
+            top: -100px;
+            left: -5px;
+        }
+
+        .ux {
+            top: -300px;
+            left: -10px;
+        }
+
+        .code {
+            top: -460px;
+            left: 60px;
+        }
+
+        .ui {
+            top: -440px;
+            left: 340px;
+        }
+    }
 }

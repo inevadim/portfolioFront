@@ -1,17 +1,19 @@
 .menu {
     width: 710px;
+    // background-color: red;
 
     ul {
         list-style-type: none;
         padding-left: 0;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: space-around;
         flex-direction: row;
-        gap: 145px;
+        // gap: 100px;
 
         li {
             display: inline;
+            // background-color: gold;
 
             a {
                 text-decoration: none;
@@ -32,5 +34,11 @@
 
         }
 
+    }
+}
+
+@media (max-width: 1110px) {
+    .menu {
+        width: 500px;
     }
 }
