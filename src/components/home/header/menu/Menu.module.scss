@@ -12,9 +12,21 @@
 
         li {
             display: inline;
-            font-weight: 300;
-            font-size: 18px;
-            color: #e4e4e4;
+
+            a {
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 18px;
+                color: #e4e4e4;
+            }
+
+            a:active {
+                color: #9b9898;
+            }
+
+            a:hover {
+                color: #9b9898;
+            }
         }
 
     }

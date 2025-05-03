@@ -52,7 +52,7 @@ function Portfolio() {
 
   return (
 
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="portfolio">
       <span className={styles.nameSection}>PORTFOLIO</span>
       <div className={styles.portfolio}>
         <Slider {...settings}>

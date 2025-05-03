@@ -24,7 +24,7 @@ function ItemSlider({ imgItem, name, text }: ChildProps) {
             <img src={imgItem} alt="portfolio" />
             <div className={styles.wrapper}>
                 <span>{name}</span>
-                <a href='#' onClick={() => textModalWindow()}>Look</a>
+                <a href='#portfolio' onClick={() => textModalWindow()}>Look</a>
             </div>
         </div>
     );
