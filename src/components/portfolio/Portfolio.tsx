@@ -56,12 +56,12 @@ function Portfolio() {
       <span className={styles.nameSection}>PORTFOLIO</span>
       <div className={styles.portfolio}>
         <Slider {...settings}>
-          <ItemSlider imgItem={portfolio} name="Portfolio" text="Text1" />
-          <ItemSlider imgItem={telegram} name="Telegram" text="Text2" />
-          <ItemSlider imgItem={inst} name="Instagram" text="Text3" />
-          <ItemSlider imgItem={x} name="Site X" text="Text4" />
-          <ItemSlider imgItem={vk} name="VK" text="Text5" />
-          <ItemSlider imgItem={twich} name="Twich" text="Text6" />
+          <ItemSlider imgItem={portfolio} name="Portfolio" text="Сайт Portfolio созданный Вадимом Колбиком в учебных целях, в рамках курсов по frontend разработке" />
+          <ItemSlider imgItem={telegram} name="Telegram" text="Telegram — самое популярное приложение для обмена мгновенными сообщениями в некоторых странах Европы, Азии и Африки" />
+          <ItemSlider imgItem={inst} name="Instagram" text="Instagram - американская социальная сеть для обмена фотографиями и видео, основанная Вадимом Колбиком" />
+          <ItemSlider imgItem={x} name="Site X" text="Социальная сеть где пользователи публикуют и взаимодействуют с сообщениями, известными как «твиты»." />
+          <ItemSlider imgItem={vk} name="VK" text="«ВКонтакте» позволяет пользователям отправлять друг другу сообщения, редактировать эти сообщения[4], создавать собственные страницы и сообщества, обмениваться изображениями, аудио и видеозаписями." />
+          <ItemSlider imgItem={twich} name="Twich" text="Twitch — видеостриминговый сервис, специализирующийся на тематике компьютерных игр, в том числе трансляциях геймплея и киберспортивных турниров. Видео на платформе Twitch можно просматривать как в реальном времени, так и по запросу. " />
         </Slider>
         <Modal text={textModal} name={nameProject} imageModal={image} />
 

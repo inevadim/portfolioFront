@@ -20,14 +20,23 @@
         justify-content: center;
         border-radius: 16px;
 
+        span {
+            font-size: 40px;
+            color: #f06292;
+            text-shadow: 2px 2px 4px #880e4f;
+        }
+
         img {
-            width: 250px;
+            width: 450px;
+            height: 250px;
             border-radius: 16px;
             margin: 10px 0px 10px 0px;
         }
 
         .textProject {
-            padding: 10px;
+            padding: 30px;
+            color: #f06292;
+            text-shadow: 2px 2px 4px #880e4f;
         }
     }
 
