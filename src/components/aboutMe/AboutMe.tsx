@@ -1,4 +1,4 @@
-import styles from './AboutMe.module.css';
+import styles from './AboutMe.module.scss';
 import CardImg from './cardImg/CardImg';
 import blueCircle from "../../assets/img/svg/blueCircle.svg";
 import whiteCircle from "../../assets/img/svg/whiteCircle.svg";

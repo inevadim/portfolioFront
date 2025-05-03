@@ -1,4 +1,4 @@
-import styles from './CardImg.module.css';
+import styles from './CardImg.module.scss';
 import me from '../../../assets/img/me.png'
 
 function CardImg() {
