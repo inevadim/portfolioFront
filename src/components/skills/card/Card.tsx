@@ -1,22 +1,19 @@
-import styles from './Card.module.css';
+import styles from './Card.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 type ChildProps = {
-  title: any;
-  imgCard: any; 
+  title: string;
+  imgCard: any;
 };
 
-function Card({title,imgCard}:ChildProps) {
-  
-    return (
-        <div className={styles.card}>        
-          <FontAwesomeIcon icon={imgCard} />
-        
-          <span className={styles.title}>{title}</span>
-          
-        </div>
-    )
-    
+function Card({ title, imgCard }: ChildProps) {
+
+  return (
+    <div className={styles.card}>
+      <FontAwesomeIcon icon={imgCard} />
+      <span>{title}</span>
+    </div>
+  )
 }
 
 export default Card
