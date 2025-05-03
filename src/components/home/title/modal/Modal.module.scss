@@ -16,7 +16,7 @@
 
     .content {
         width: 500px;
-        height: 500px;
+        height: 530px;
         background-color: rgba(0, 196, 240, 0.438);
         display: flex;
         flex-direction: column;
@@ -24,6 +24,12 @@
         justify-content: center;
         border-radius: 16px;
 
+        span {
+            padding-left: 10px;
+            font-size: 40px;
+            color: #f06292;
+            text-shadow: 2px 2px 4px #880e4f;
+        }
 
         .formModal {
             display: flex;
@@ -77,10 +83,16 @@
                 box-shadow: 0 2px 13px 0 rgba(226, 158, 0, 0.48);
                 background: linear-gradient(315deg, #e2a300 0%, #e29500 100%);
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 22px;
                 color: #000;
+                text-shadow: 1px 1px 3px #7a0a46;
                 padding: 20px 50px 40px 50px;
                 cursor: pointer;
+
+                &:hover {
+                    color: #d63a6e;
+                    text-shadow: 1px 1px 3px #7a0a46;
+                }
             }
 
 

@@ -46,7 +46,7 @@ function Modal({ active, setActiveModal }: Props) {
             <div className={styles.content} onClick={(e) => e.stopPropagation()}>
                 <ToastContainer position="bottom-right" autoClose={3000} theme="colored" />
 
-                <span>Contact with me</span>
+                <span>Contact</span>
 
                 <form className={styles.formModal} onSubmit={handleSubmit(onSubmit, onError)}>
                     <div className={styles.wrap}><FontAwesomeIcon icon={faAddressBook} /><input

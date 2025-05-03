@@ -6,6 +6,13 @@
          flex-direction: column;
          height: 400px;
 
+         .wrapper {
+             span {
+                 //  color: #f06292;
+                 text-shadow: 2px 2px 4px #880e4f;
+             }
+         }
+
          img {
              height: 230px;
              width: 300px;
@@ -15,7 +22,8 @@
 
          a {
              text-decoration: none;
-             color: hsl(0, 0%, 100%);
+             color: #000000;
+             text-shadow: 2px 2px 4px #880e4f;
              text-decoration: none;
              border-radius: 6px;
              width: 70px;
@@ -29,12 +37,9 @@
              margin-left: 10px;
          }
 
-         a:active {
-             color: #ffffff;
-         }
-
          a:hover {
-             color: #ffffff;
+             color: #dd3d73;
+             text-shadow: 1px 1px 3px #880e4f;
          }
 
      }
