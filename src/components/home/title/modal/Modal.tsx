@@ -20,10 +20,10 @@ function Modal({ active, setActiveModal }: Props) {
         register,
         handleSubmit,
         reset,
-        formState: { errors },
+
     } = useForm<FormData>();
 
-    const onSubmit: SubmitHandler<FormData> = (data) => {
+    const onSubmit: SubmitHandler<FormData> = () => {
         toast.success('Message sent!');
         reset();
     };
