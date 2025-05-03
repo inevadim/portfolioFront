@@ -1,13 +1,13 @@
-import Header from "./header/Header";
+// import Header from "../header/Header";
 import styles from './Home.module.scss';
 import Men from "./men/Men";
 import Title from "./title/Title";
 
 function Home() {
   return (
-    <div className={styles.wrap}>
+    <div className={styles.wrap} id="home">
       <div className={styles.home}>
-        <Header />
+        {/* <Header /> */}
         <div className={styles.wrapTitleMen}>
           <Title />
           <Men />

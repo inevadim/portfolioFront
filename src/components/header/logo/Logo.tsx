@@ -1,5 +1,5 @@
 import styles from './Logo.module.scss';
-import logo from "../../../../assets/img/svg/logo.svg";
+import logo from "../../../assets/img/svg/logo.svg";
 
 function Logo() {
     return (

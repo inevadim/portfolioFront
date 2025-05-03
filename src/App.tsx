@@ -4,6 +4,7 @@
 import styles from './App.module.css';
 import AboutMe from './components/aboutMe/AboutMe';
 import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
@@ -13,6 +14,7 @@ function App() {
     return (
         <div className={styles.app}>
             {/* <Title>Welcome to IT-INCUBATOR</Title> */}
+            <Header />
             <Home />
             <Skills />
             <AboutMe />
