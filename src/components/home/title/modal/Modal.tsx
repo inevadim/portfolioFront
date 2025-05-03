@@ -2,6 +2,8 @@ import styles from './Modal.module.scss';
 import { useForm, SubmitHandler, FieldErrors } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressBook, faPhone, faEnvelope, faComment } from '@fortawesome/free-solid-svg-icons';
 
 type Props = {
     active: boolean;
@@ -47,12 +49,13 @@ function Modal({ active, setActiveModal }: Props) {
                 <span>Contact with me</span>
 
                 <form className={styles.formModal} onSubmit={handleSubmit(onSubmit, onError)}>
-                    <input
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faAddressBook} /><input
                         placeholder="Name"
                         {...register('name', { required: 'name requare' })}
-                    />
+                    /></div>
 
-                    <input
+
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faPhone} /><input
                         type="tel"
                         placeholder="Phone"
                         {...register('phone', {
@@ -62,9 +65,9 @@ function Modal({ active, setActiveModal }: Props) {
                                 message: 'unvalid phone',
                             },
                         })}
-                    />
+                    /></div>
 
-                    <input
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faEnvelope} /><input
                         type="email"
                         placeholder="Email"
                         {...register('email', {
@@ -74,13 +77,13 @@ function Modal({ active, setActiveModal }: Props) {
                                 message: 'unvalid email',
                             },
                         })}
-                    />
+                    /></div>
 
-                    <textarea
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faComment} /><textarea
                         placeholder="Enter message..."
                         className={styles.myTextarea}
                         {...register('text', { required: 'Message requare' })}
-                    />
+                    /></div>
 
                     <button className={styles.buttonModal} type="submit">
                         Submit

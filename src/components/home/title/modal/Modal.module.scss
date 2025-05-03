@@ -32,23 +32,46 @@
             justify-content: center;
             width: 90%;
 
-            input {
-                height: 40px;
+            .wrap {
                 width: 100%;
-                margin: 10px 0px 10px 0px;
-                border-radius: 6px;
-                border: 1px solid #ddd;
-                padding: 6px;
+                display: flex;
+                align-items: center;
 
-                &:focus {
-                    border-color: rgb(226, 160, 0);
-                    box-shadow: 0 0 6px rgb(226, 160, 0);
-                    outline: none;
+                input {
+                    height: 40px;
+                    width: 100%;
+                    margin: 10px 0px 10px 10px;
+                    border-radius: 6px;
+                    border: 1px solid #ddd;
+                    padding: 6px;
+
+                    &:focus {
+                        border-color: rgb(226, 160, 0);
+                        box-shadow: 0 0 6px rgb(226, 160, 0);
+                        outline: none;
+                    }
                 }
+
+                .myTextarea {
+                    width: 98%;
+                    height: 120px;
+                    padding: 12px;
+                    border-radius: 6px;
+                    border: 1px solid #ddd;
+                    resize: none;
+                    margin: 10px 0px 10px 10px;
+
+                    &:focus {
+                        border-color: rgb(226, 160, 0);
+                        box-shadow: 0 0 6px rgb(226, 160, 0);
+                        outline: none;
+                    }
+                }
+
             }
 
             .buttonModal {
-                border-radius: 6px;
+                border-radius: 14px;
                 width: 200px;
                 height: 47px;
                 box-shadow: 0 2px 13px 0 rgba(226, 158, 0, 0.48);
@@ -60,21 +83,7 @@
                 cursor: pointer;
             }
 
-            .myTextarea {
-                width: 98%;
-                height: 120px;
-                padding: 12px;
-                border-radius: 6px;
-                border: 1px solid #ddd;
-                resize: none;
-                margin: 10px 0px 10px 0px;
 
-                &:focus {
-                    border-color: rgb(226, 160, 0);
-                    box-shadow: 0 0 6px rgb(226, 160, 0);
-                    outline: none;
-                }
-            }
 
         }
     }
