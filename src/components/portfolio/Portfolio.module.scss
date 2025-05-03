@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+
+    .nameSection {
+        font-size: 30px;
+        padding-top: 20px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .portfolio {
+        width: 70%;
+        height: 450px;
+    }
+}

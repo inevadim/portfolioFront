@@ -1,13 +1,19 @@
-import styles from './Portfolio.module.css';
+import styles from './Portfolio.module.scss';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import portfolio1 from "../../assets/img/portfolio/portfolio4.png"
+import portfolio from "../../assets/img/portfolio/portfolio.png"
+import telegram from "../../assets/img/portfolio/telegram.png"
+import inst from "../../assets/img/portfolio/inst.jpg"
+import x from "../../assets/img/portfolio/x.jpg"
+import vk from "../../assets/img/portfolio/vk.jpg"
+import twich from "../../assets/img/portfolio/twich.png"
 import Modal from './modal/Modal';
 import { useState } from 'react';
+import ItemSlider from './itemPortfolio/ItemSlider';
 
 function Portfolio() {
-  const [modalActive, setModalActive]=useState(true);
+  const [modalActive, setModalActive] = useState(true);
   var settings = {
     dots: true,
     infinite: true,
@@ -43,49 +49,20 @@ function Portfolio() {
   };
   return (
     <div className={styles.wrapper}>
-      <span className={styles.title}>PORTFOLIO</span>
+      <span className={styles.nameSection}>PORTFOLIO</span>
       <div className={styles.portfolio}>
         <Slider {...settings}>
 
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span className={styles.nameProject}>Name Project</span>
-                <a className={styles.aLookProject} href='#'>Look Project</a>
-          </div>
-
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <a className={styles.aLookProject} href='#'>Look Project</a>
-          </div>
-
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <a className={styles.aLookProject} href='#'>Look Project</a>
-          </div>
-
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <a className={styles.aLookProject} href='#'>Look Project</a>
-          </div>
-
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <a className={styles.aLookProject} href='#'>Look Project</a>
-          </div>
-
-          <div className={styles.itemSlider}>
-            <div className={styles.wrapperImg}><img src={portfolio1} alt="portfolio 1" /></div>
-                <span>Name Project</span>
-                <a className={styles.aLookProject} href='#' onClick={()=>setModalActive(true)}>Look Project</a>
-          </div>
+          <ItemSlider imgItem={portfolio} name={"Portfolio"} />
+          <ItemSlider imgItem={telegram} name={"Telegram"} />
+          <ItemSlider imgItem={inst} name={"Instagram"} />
+          <ItemSlider imgItem={x} name={"Site X"} />
+          <ItemSlider imgItem={vk} name={"VK"} />
+          <ItemSlider imgItem={twich} name={"Twich"} />
 
         </Slider>
-        <Modal active={modalActive} setActiveModal={setModalActive}/>
-        
+        <Modal active={modalActive} setActiveModal={setModalActive} />
+
       </div>
     </div>
   );
