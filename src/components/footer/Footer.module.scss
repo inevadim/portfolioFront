@@ -1,0 +1,78 @@
+.footer {
+    width: 100%;
+    height: 238px;
+    background-color: linear-gradient(135deg, #414141 0%, #2d2d2d 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+        width: 780px;
+        display: flex;
+        justify-content: space-around;
+
+        .dopMenu {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 18px;
+            width: 250px;
+            height: 138px;
+
+            li {
+
+                display: flex;
+                align-items: center;
+                font-weight: 300;
+                font-size: 18px;
+                color: #e4e4e4;
+
+                span {
+                    margin-left: 10px;
+
+                }
+
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #c9c8c8;
+                    margin-right: 10px;
+
+                }
+
+                a:active {
+                    color: #9b9898;
+                }
+
+                a:hover {
+                    color: #9b9898;
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+
+            }
+
+            .titleCopyright {
+                font-weight: 400;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .copyright {
+                font-weight: 300;
+                font-size: 18px;
+                color: #e4e4e4;
+            }
+
+
+        }
+
+    }
+
+}

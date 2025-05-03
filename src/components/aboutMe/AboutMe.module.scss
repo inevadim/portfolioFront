@@ -1,14 +1,14 @@
-.wrapper{
-    display: flex; 
-    flex-direction:column ;
+.wrapper {
+    display: flex;
+    flex-direction: column;
     max-height: 850px;
 
-    .aboutMe{
+    .aboutMe {
         display: flex;
         width: 1102px;
         height: 749px;
 
-        .titleAboutMe{
+        .titleAboutMe {
             border-radius: 14px;
             height: 700px;
             width: 400px;
@@ -20,7 +20,7 @@
             padding: 0px 40px 0px 40px;
             z-index: 2;
 
-            .title{
+            .title {
                 position: relative;
                 top: -40px;
                 left: 100px;
@@ -31,42 +31,29 @@
         }
     }
 
-    .rightImg{
+    .rightImg {
         position: relative;
-        top:150px;
+        top: 150px;
         left: 0px;
     }
 
-    .whiteCircle{
+    .whiteCircle {
         position: relative;
         top: -850px;
         left: -210px;
         z-index: 1;
     }
-    
-    .blueCircle{
+
+    .blueCircle {
         position: relative;
         top: -1720px;
         left: 400px;
     }
-    
-    .yellowCircle{
+
+    .yellowCircle {
         position: relative;
         top: -1600px;
         left: 600px;
     }
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

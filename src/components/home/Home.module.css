@@ -1,4 +1,4 @@
-.wrap{
+.wrap {
     width: 100%;
     height: 760px;
     background-color: rgb(38, 38, 38);
@@ -6,12 +6,12 @@
     justify-content: center;
 }
 
-.home{
+.home {
     width: 1200px;
     height: 760px;
 }
 
-.wrapTitleMen{
+.wrapTitleMen {
     display: flex;
     justify-content: center;
     align-items: center;
