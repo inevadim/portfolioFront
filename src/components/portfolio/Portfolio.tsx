@@ -9,11 +9,11 @@ import x from "../../assets/img/portfolio/x.jpg"
 import vk from "../../assets/img/portfolio/vk.jpg"
 import twich from "../../assets/img/portfolio/twich.png"
 import Modal from './modal/Modal';
-import { useState } from 'react';
 import ItemSlider from './itemPortfolio/ItemSlider';
+import { useModalStore } from '../../store/modalStore';
 
 function Portfolio() {
-  const [modalActive, setModalActive] = useState(true);
+
   var settings = {
     dots: true,
     infinite: true,
@@ -47,21 +47,23 @@ function Portfolio() {
       }
     ]
   };
+
+  const { textModal, nameProject, image } = useModalStore();
+
   return (
+
     <div className={styles.wrapper}>
       <span className={styles.nameSection}>PORTFOLIO</span>
       <div className={styles.portfolio}>
         <Slider {...settings}>
-
-          <ItemSlider imgItem={portfolio} name={"Portfolio"} />
-          <ItemSlider imgItem={telegram} name={"Telegram"} />
-          <ItemSlider imgItem={inst} name={"Instagram"} />
-          <ItemSlider imgItem={x} name={"Site X"} />
-          <ItemSlider imgItem={vk} name={"VK"} />
-          <ItemSlider imgItem={twich} name={"Twich"} />
-
+          <ItemSlider imgItem={portfolio} name="Portfolio" text="Text1" />
+          <ItemSlider imgItem={telegram} name="Telegram" text="Text2" />
+          <ItemSlider imgItem={inst} name="Instagram" text="Text3" />
+          <ItemSlider imgItem={x} name="Site X" text="Text4" />
+          <ItemSlider imgItem={vk} name="VK" text="Text5" />
+          <ItemSlider imgItem={twich} name="Twich" text="Text6" />
         </Slider>
-        <Modal active={modalActive} setActiveModal={setModalActive} />
+        <Modal text={textModal} name={nameProject} imageModal={image} />
 
       </div>
     </div>

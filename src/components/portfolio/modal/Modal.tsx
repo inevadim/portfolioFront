@@ -1,26 +1,23 @@
 import styles from './Modal.module.scss';
-import portfolio from "../../../assets/img/portfolio/portfolio.png"
+import { useModalStore } from '../../../store/modalStore';
 
 type Props = {
-    active: boolean,
-    setActiveModal: any,
+    text: string,
+    name: string,
+    imageModal: string
 }
 
-function Modal({ active, setActiveModal }: Props) {
+function Modal({ text, name, imageModal }: Props) {
+    const { isOpen, close } = useModalStore();
+    if (!isOpen) return null;
     return (
-        <div className={active ? styles.modal : styles.unModal} onClick={() => setActiveModal(false)}>
+        <div className={styles.modal} onClick={close}>
             <div className={styles.content} onClick={(e) => e.stopPropagation()}>
-                <span>Name project</span>
-                <img src={portfolio} alt="my project" />
+                <span>{name}</span>
+                <img src={imageModal} alt="my project" />
+
                 <div className={styles.textProject}>
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
-                    Many text Many text Many textMany text Many text
+                    {text}
 
                 </div>
             </div>

@@ -1,4 +1,4 @@
-.modal{
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
 
-    .content{
+    .content {
         width: 500px;
         height: 500px;
         background-color: rgba(0, 196, 240, 0.438);
@@ -20,20 +20,15 @@
         justify-content: center;
         border-radius: 16px;
 
-        img{
+        img {
             width: 250px;
             border-radius: 16px;
             margin: 10px 0px 10px 0px;
         }
 
-        .textProject{
-            // background-color: red;
+        .textProject {
             padding: 10px;
         }
     }
 
-}
-
-.unModal{
-    display: none;
 }
