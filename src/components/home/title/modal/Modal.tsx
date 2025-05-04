@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressBook, faPhone, faEnvelope, faComment } from '@fortawesome/free-solid-svg-icons';
+import { motion } from "motion/react"
 
 type Props = {
     active: boolean;
@@ -42,8 +43,13 @@ function Modal({ active, setActiveModal }: Props) {
         <div
             className={active ? styles.modal : styles.unModal}
             onClick={() => setActiveModal(false)}
+
+
+
         >
-            <div className={styles.content} onClick={(e) => e.stopPropagation()}>
+            <div className={styles.content}
+
+                onClick={(e) => e.stopPropagation()}>
                 <ToastContainer position="bottom-right" autoClose={3000} theme="colored" />
 
                 <span>Contact</span>
