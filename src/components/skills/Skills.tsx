@@ -1,6 +1,6 @@
 import Card from './card/Card';
 import styles from './Skills.module.scss';
-import { faCode, faPalette, faPenNib, faBarsProgress, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faBarsProgress, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
   return (

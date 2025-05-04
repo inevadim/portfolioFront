@@ -4,6 +4,7 @@ import svgr from "vite-plugin-svgr";
 
 
 export default defineConfig({
+  base: '/portfolioFront/',
   plugins: [
     react({
       babel: {
@@ -12,7 +13,7 @@ export default defineConfig({
     }),
     svgr(),
   ],
-  
+
   resolve: {
     alias: {
       "@": "/src",
