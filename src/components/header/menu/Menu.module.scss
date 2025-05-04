@@ -50,9 +50,9 @@
     .menu {
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 58px;
         right: 0;
-        background-color: #1a1a1a;
+        background-color: rgb(38, 38, 38);
         z-index: 1000;
         transition: transform 0.3s ease, opacity 0.3s ease;
         transform: translateY(-10px);
