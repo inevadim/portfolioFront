@@ -3,16 +3,42 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width: 1180px;
-    height: 570px;
+    // height: 570px;
     color: #00C4F0;
     padding-top: 50px;
     padding-bottom: 80px;
+    // background-color: red;
+    font-size: 30px;
+    // padding-top: 20px;
+    font-weight: 500;
+    color: #f06292;
+    text-shadow: 2px 2px 4px #880e4f;
+
+    .wrapper {
+        // background-color: #00C4F0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 1180px;
+        // height: 570px;
+        color: #00C4F0;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width: 1200px) {
     .skills {
         width: 90%;
-        height: 850px;
+        // height: 850px;
+        // background-color: aqua;
+    }
+}
+
+@media (max-width: 900px) {
+    .skills {
+        // width: 90%;
+        height: 650px;
         // background-color: aqua;
     }
 }

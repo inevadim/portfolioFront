@@ -10,6 +10,18 @@
     img {
         height: 320px;
         box-shadow: 0 0 0 6px #686868;
-        z-index: 2;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 900px) {
+    .cardImg {
+        // padding: 10px;
+        // background-color: gold;
+        width: 200px;
+
+        img {
+            height: 220px;
+        }
     }
 }

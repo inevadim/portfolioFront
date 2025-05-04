@@ -5,13 +5,17 @@ import { faCode, faPalette, faPenNib, faBarsProgress, faLaptopCode } from '@fort
 function Skills() {
   return (
     <div className={styles.skills} id="aboutMe">
-      <Card title="Product Design" imgCard={faPenNib} />
-      <Card title="UX/UI Design" imgCard={faBarsProgress} />
-      <Card title="Icon Design" imgCard={faPalette} />
-      <Card title="Logo Design" imgCard={faPenNib} />
-      <Card title="Backend" imgCard={faCode} />
-      <Card title="Frontend" imgCard={faLaptopCode} />
-      <Card title="Motion" imgCard={faLaptopCode} />
+      <span>Skills</span>
+      <div className={styles.wrapper}>
+        {/* <Card title="Product Design" imgCard={faPenNib} /> */}
+        {/* <Card title="Icon Design" imgCard={faPalette} /> */}
+        {/* <Card title="Logo Design" imgCard={faPenNib} /> */}
+
+        <Card title="Frontend" imgCard={faLaptopCode} />
+        <Card title="Backend" imgCard={faCode} />
+        <Card title="UX/UI Design" imgCard={faBarsProgress} />
+        {/* <Card title="Motion" imgCard={faLaptopCode} /> */}
+      </div>
     </div>
   )
 }

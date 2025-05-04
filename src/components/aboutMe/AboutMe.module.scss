@@ -94,3 +94,77 @@
         }
     }
 }
+
+
+@media (max-width: 900px) {
+    .wrapper {
+
+        max-height: 950px;
+
+        .aboutMe {
+            display: flex;
+            width: 1102px;
+            height: 649px;
+            // background-color: #880e4f;
+
+
+            .titleAboutMe {
+
+                height: 600px;
+                width: 400px;
+                background: #2c2c2c;
+                font-weight: 300;
+                font-size: 18px;
+                letter-spacing: 0.01em;
+                color: #fff;
+                padding: 0px 40px 40px 40px;
+                z-index: 2;
+
+                .title {
+                    position: relative;
+                    top: -40px;
+                    left: 100px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #f06292;
+                    text-shadow: 2px 2px 4px #880e4f;
+                }
+            }
+        }
+
+
+        .rightImg {
+            top: 10px;
+            left: 0px;
+        }
+
+        .aboutMe {
+            width: 95%;
+            height: 700px;
+            // background-color: red;
+            flex-direction: column;
+
+        }
+
+        .whiteCircle {
+            top: -90px;
+            left: 80px;
+            z-index: 2;
+            width: 300px;
+        }
+
+        .blueCircle {
+            top: -520px;
+            left: 320px;
+            // z-index: 1;
+            width: 150px;
+        }
+
+        .yellowCircle {
+            top: -420px;
+            left: 250px;
+            // z-index: 1;
+            width: 200px;
+        }
+    }
+}

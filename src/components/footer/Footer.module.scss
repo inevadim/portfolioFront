@@ -80,3 +80,70 @@
     }
 
 }
+
+@media (max-width: 900px) {
+    .footer {
+        height: 238px;
+
+        .wrapper {
+            width: 780px;
+
+            .dopMenu {
+                gap: 18px;
+                width: 150px;
+                height: 138px;
+                // background-color: #880e4f;
+                align-items: flex-start;
+                // justify-content: left;
+
+                li {
+                    align-items: center;
+                    font-weight: 300;
+                    font-size: 14px;
+
+                    span {
+                        margin-left: 10px;
+                    }
+
+
+                    a {
+
+                        font-weight: 300;
+                        font-size: 14px;
+                        margin-right: 10px;
+
+                    }
+
+
+                    img {
+                        margin-right: 0px;
+                    }
+
+                }
+
+                .titleCopyright {
+                    font-size: 28px;
+                    // background-color: gold;
+
+                    img {
+                        width: 40px;
+                        margin-left: -20px;
+                    }
+                }
+
+                .copyright {
+                    font-size: 14px;
+                    // background-color: green;
+                    width: 150px;
+                    // height: 60px;
+
+                    margin-left: -20px;
+                }
+
+
+            }
+
+        }
+
+    }
+}

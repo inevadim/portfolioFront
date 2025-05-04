@@ -18,3 +18,23 @@
     }
 
 }
+
+@media (max-width: 1110px) {
+    .wrap {
+        height: 600px;
+
+        .home {
+            height: 600px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .wrap {
+        height: 500px;
+
+        .home {
+            height: 500px;
+        }
+    }
+}

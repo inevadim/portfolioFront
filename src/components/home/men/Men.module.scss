@@ -79,3 +79,44 @@
         }
     }
 }
+
+
+@media (max-width: 900px) {
+    .men {
+        width: 300px;
+        height: 474px;
+        // background-color: red;
+
+        .blueCircle {
+            top: 80px;
+            left: 10px;
+            width: 300px;
+        }
+
+        .menImg {
+            top: -450px;
+            left: 70px;
+            width: 200px;
+        }
+
+        .ps {
+            top: -70px;
+            left: 15px;
+        }
+
+        .ux {
+            top: -190px;
+            left: 15px;
+        }
+
+        .code {
+            top: -300px;
+            left: 60px;
+        }
+
+        .ui {
+            top: -340px;
+            left: 220px;
+        }
+    }
+}

@@ -20,6 +20,10 @@
                 font-weight: 300;
                 font-size: 18px;
                 color: #e4e4e4;
+
+                span {
+                    padding-left: 10px;
+                }
             }
 
             a:active {
@@ -31,9 +35,7 @@
                 color: #f06292;
                 text-shadow: 2px 2px 4px #880e4f;
             }
-
         }
-
     }
 }
 
@@ -41,4 +43,102 @@
     .menu {
         width: 500px;
     }
+}
+
+// Мобильная адаптация
+@media (max-width: 900px) {
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #1a1a1a;
+        z-index: 1000;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        transform: translateY(-10px);
+        opacity: 0;
+        pointer-events: none;
+
+        ul {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 10px 20px;
+            display: none;
+
+            li {
+                padding: 10px 0;
+                width: 100%;
+
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .active {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+        // transition: transform 0.3s ease, opacity 0.3s ease 0.3s;
+
+        ul {
+            display: flex !important;
+        }
+    }
+}
+
+// Иконка бургер-меню
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    width: 30px;
+    height: 24px;
+
+    @media (max-width: 900px) {
+        display: block;
+    }
+
+    span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #e4e4e4;
+        border-radius: 2px;
+        position: absolute;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+
+    span:nth-child(1) {
+        top: 0;
+    }
+
+    span:nth-child(2) {
+        top: 10px;
+    }
+
+    span:nth-child(3) {
+        top: 20px;
+    }
+}
+
+// Анимация превращения в крестик
+.burgerActive span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+}
+
+.burgerActive span:nth-child(2) {
+    opacity: 0;
+}
+
+.burgerActive span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
 }
