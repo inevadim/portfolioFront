@@ -43,3 +43,22 @@
          }
 
      }
+
+
+
+     @media (max-width: 440px) {
+         .itemSlider {
+
+             height: 250px;
+             //  background-color: #e29500;
+
+             img {
+                 height: 130px;
+                 width: 200px;
+
+             }
+
+
+
+         }
+     }

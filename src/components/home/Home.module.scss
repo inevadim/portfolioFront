@@ -5,17 +5,18 @@
     display: flex;
     justify-content: center;
 
-    .home {
+
+
+
+    .wrapTitleMen {
         width: 1200px;
         height: 760px;
-
-        .wrapTitleMen {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+
 
 }
 
@@ -23,7 +24,7 @@
     .wrap {
         height: 600px;
 
-        .home {
+        .wrapTitleMen {
             height: 600px;
         }
     }
@@ -33,8 +34,20 @@
     .wrap {
         height: 500px;
 
-        .home {
+        .wrapTitleMen {
             height: 500px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .wrap {
+        height: 800px;
+        // background-color: red;
+
+        .wrapTitleMen {
+            height: 900px;
+            flex-direction: column;
         }
     }
 }

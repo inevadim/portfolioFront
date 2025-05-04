@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 8;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
@@ -40,4 +40,37 @@
         }
     }
 
+}
+
+@media (max-width: 510px) {
+    .modal {
+        .content {
+            width: 300px;
+            height: 350px;
+
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+
+            span {
+                font-size: 20px;
+                color: #f06292;
+                text-shadow: 2px 2px 4px #880e4f;
+            }
+
+            img {
+                width: 250px;
+                height: 150px;
+                border-radius: 16px;
+                margin: 10px 0px 0px 0px;
+            }
+
+            .textProject {
+                font-size: 14px;
+                padding: 30px;
+                color: #f06292;
+                text-shadow: 2px 2px 4px #880e4f;
+            }
+        }
+    }
 }

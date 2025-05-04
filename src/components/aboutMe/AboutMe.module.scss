@@ -168,3 +168,130 @@
         }
     }
 }
+
+
+
+
+
+@media (max-width: 500px) {
+    .wrapper {
+
+        max-height: 1070px;
+
+
+        .aboutMe {
+            width: 300px;
+
+
+
+            .titleAboutMe {
+
+                height: 800px;
+                width: 300px;
+                background: #2c2c2c;
+                font-weight: 300;
+                font-size: 18px;
+                letter-spacing: 0.01em;
+                color: #fff;
+                padding: 0px 40px 40px 40px;
+                z-index: 2;
+
+                .title {
+                    position: relative;
+                    top: -40px;
+                    left: 100px;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #f06292;
+                    text-shadow: 2px 2px 4px #880e4f;
+                }
+            }
+        }
+
+
+        .rightImg {
+            top: 10px;
+            left: 0px;
+        }
+
+        .aboutMe {
+            width: 95%;
+            height: 700px;
+            // background-color: red;
+            flex-direction: column;
+
+        }
+
+        .whiteCircle {
+            top: 80px;
+            left: 80px;
+            width: 250px;
+        }
+
+        .blueCircle {
+            top: -370px;
+            left: 220px;
+            // z-index: 1;
+            // width: 150px;
+        }
+
+        .yellowCircle {
+            top: -90px;
+            left: 170px;
+            // z-index: 1;
+            width: 200px;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 390px) {
+    .wrapper {
+
+
+        max-height: 2200px;
+
+
+        .aboutMe {
+
+
+
+            .titleAboutMe {
+
+                height: 1700px;
+                width: 220px;
+
+                .title {
+                    left: 50px;
+                }
+
+
+            }
+        }
+
+
+
+
+        .whiteCircle {
+            top: 310px;
+            left: 40px;
+            // width: 200px;
+        }
+
+        .blueCircle {
+            top: 0px;
+            left: 120px;
+            // z-index: 1;
+            // width: 150px;
+        }
+
+        .yellowCircle {
+            top: 90px;
+            left: -10px;
+            // z-index: 1;
+            width: 200px;
+        }
+    }
+}
