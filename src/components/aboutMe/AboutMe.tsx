@@ -6,7 +6,7 @@ import yellowCircle from "../../assets/img/svg/yellowCircle.svg";
 
 function AboutMe() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="aboutMe">
             <div className={styles.aboutMe}>
                 <div className={styles.leftImg}>
                     <CardImg />

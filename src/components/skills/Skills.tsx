@@ -4,7 +4,7 @@ import { faCode, faPalette, faPenNib, faBarsProgress, faLaptopCode } from '@fort
 
 function Skills() {
   return (
-    <div className={styles.skills} id="aboutMe">
+    <div className={styles.skills} id="skills">
       <span>Skills</span>
       <div className={styles.wrapper}>
         {/* <Card title="Product Design" imgCard={faPenNib} /> */}
