@@ -3,8 +3,10 @@ import CardImg from './cardImg/CardImg';
 import blueCircle from "../../assets/img/svg/blueCircle.svg";
 import whiteCircle from "../../assets/img/svg/whiteCircle.svg";
 import yellowCircle from "../../assets/img/svg/yellowCircle.svg";
+import { motion } from "motion/react"
 
 function AboutMe() {
+
     return (
         <div className={styles.wrapper} id="aboutMe">
             <div className={styles.aboutMe}>
@@ -20,9 +22,42 @@ function AboutMe() {
                     <CardImg />
                 </div>
             </div>
-            <img className={styles.whiteCircle} src={whiteCircle} alt="whiteCircle" />
-            <img className={styles.yellowCircle} src={yellowCircle} alt="yellowCircle" />
-            <img className={styles.blueCircle} src={blueCircle} alt="Blue circle" />
+            <motion.img
+                className={styles.whiteCircle}
+                src={whiteCircle}
+                alt="whiteCircle"
+                animate={{ rotate: 360 }}
+                transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatType: 'reverse',
+                    type: 'just'
+                }}
+            />
+            <motion.img
+                className={styles.yellowCircle}
+                src={yellowCircle}
+                alt="yellowCircle"
+                animate={{ rotate: 360 }}
+                transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatType: 'reverse',
+                    type: 'just'
+                }}
+            />
+            <motion.img
+                className={styles.blueCircle}
+                src={blueCircle}
+                alt="Blue circle"
+                animate={{ rotate: 360 }}
+                transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatType: 'reverse',
+                    type: 'just'
+                }}
+            />
         </div>
     )
 }
