@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+# 🎨 Portfolio Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-6.3.2-blueviolet?logo=vite)
+![React](https://img.shields.io/badge/React-18.3.1-61dafb?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-3178c6?logo=typescript)
+![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-brightgreen?logo=github)
 
-Currently, two official plugins are available:
+> ✨ Портфолио, созданное с использованием React, TypeScript и Vite. Включает анимации, формы, слайдеры и адаптивный дизайн.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Демо
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🔗 [Открыть сайт](https://inevadim.github.io/portfolioFront)
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Стек технологий
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React 18** + **TypeScript**
+- **Vite** — быстрая сборка и HMR
+- **Framer Motion** — анимации
+- **React Hook Form** — управление формами
+- **CSS modules** — стилизация компонентов
+- **React Slick** — слайдеры
+- **React Toastify** — уведомления
+- **Zustand** — управление состоянием
+- **Font Awesome** — иконки
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🛠️ Установка и запуск
+
+```bash
+# Клонирование репозитория
+git clone https://github.com/inevadim/portfolioFront.git
+cd portfolioFront
+
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка проекта
+npm run build
+
+# Предпросмотр сборки
+npm run preview
