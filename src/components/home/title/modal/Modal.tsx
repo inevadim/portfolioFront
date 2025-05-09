@@ -52,13 +52,13 @@ function Modal({ active, setActiveModal }: Props) {
                 <span>Contact</span>
 
                 <form className={styles.formModal} onSubmit={handleSubmit(onSubmit, onError)}>
-                    <div className={styles.wrap}><FontAwesomeIcon icon={faAddressBook} /><input
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faAddressBook} color='#e2a300' /><input
                         placeholder="Name"
                         {...register('name', { required: 'name requare' })}
                     /></div>
 
 
-                    <div className={styles.wrap}><FontAwesomeIcon icon={faPhone} /><input
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faPhone} color='#e2a300' /><input
                         type="tel"
                         placeholder="Phone"
                         {...register('phone', {
@@ -70,7 +70,7 @@ function Modal({ active, setActiveModal }: Props) {
                         })}
                     /></div>
 
-                    <div className={styles.wrap}><FontAwesomeIcon icon={faEnvelope} /><input
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faEnvelope} color='#e2a300' /><input
                         type="email"
                         placeholder="Email"
                         {...register('email', {
@@ -82,7 +82,7 @@ function Modal({ active, setActiveModal }: Props) {
                         })}
                     /></div>
 
-                    <div className={styles.wrap}><FontAwesomeIcon icon={faComment} /><textarea
+                    <div className={styles.wrap}><FontAwesomeIcon icon={faComment} color='#e2a300' /><textarea
                         placeholder="Enter message..."
                         className={styles.myTextarea}
                         {...register('text', { required: 'Message requare' })}

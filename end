@@ -1,0 +1,51 @@
+[33m9fabcc8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m install devDependencies tailwindcss autoprefixer postcss
+[33m5742b31[m commit skills animated
+[33m5032878[m edit file readme
+[33m5d90c80[m animated circle and skills
+[33m84fa2be[m install framer motion and animated home
+[33mbd37fbd[m adaptive module portfolio name section 440px
+[33ma2454df[m adaptive module portfolio name section 440px
+[33m2f0448c[m adaptive module portfolio name section 440px
+[33mdccdf9f[m adaptive module portfolio name section 440px
+[33m4c2d5f2[m adaptive module portfolio name section 440px
+[33m0eb6a6c[m bug on phone about me adaptive
+[33ma6fd17b[m config vite and deploy site
+[33m9d6a8a1[m link skills
+[33m245fd24[m bug sticky menu
+[33m19926e8[m adaptive 320px
+[33m125ef3b[m adaptive 900px menu burger, home, footer, skills
+[33mfe40db1[m adaptive 1110px
+[33m4eec1c2[m adaptive slider
+[33m17e85d9[m redesign modal portfolio
+[33m1b5aca3[m edit link style font
+[33m20918bf[m edit style button contact me
+[33m393be13[m connect pacifico font and edit font logo
+[33md0efef2[m edit little bug styles
+[33ma8f6e95[m delete bug errors form modal
+[33m1d2ff7b[m install react toastify and validation form contact
+[33m035c515[m sticky navigation
+[33md84581f[m structure sticky nav
+[33m3f56cdd[m anchor links
+[33m536a007[m refactoring Skills
+[33m2f51965[m work modal window portfolio with zustand
+[33m3b89c62[m install zustand and create modalStore
+[33mc21b48f[m refactoring potfolio and design
+[33me59ff25[m refactoring Modal title and add glasmorphizm style modal window
+[33m195b6a4[m refactoring Title
+[33m91d300f[m refactoring Men
+[33mefb9f4a[m refactoring Menu
+[33m1dcfcda[m refactoring Logo
+[33m85515f0[m refactoring Header
+[33m985b43f[m refactoring Home
+[33m4273d19[m refactoring footer, add icons, edit design
+[33mdd3039a[m refactoring AboutMe and CarImg and scss files
+[33m443768e[m rafactoring aboutMe
+[33ma98fc47[m structure and little design card porfolio
+[33m1ccef1e[m bug modal window visible
+[33mfc2eae8[m add style scrollbar
+[33m71cab7b[m add sass add modal window
+[33m2346da4[m edit height portfolio
+[33m44f4b0e[m edit slider
+[33md506fc0[m deploy project 2 day
+[33md644e02[m deploy
+[33md327b13[m first deploy structure project

@@ -17,7 +17,9 @@
     .content {
         width: 500px;
         height: 530px;
-        background-color: rgba(0, 196, 240, 0.438);
+        // background-color: rgba(0, 196, 240, 0.438);
+        background-color: rgba(0, 0, 0, 0.438);
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -27,7 +29,7 @@
         span {
             padding-left: 10px;
             font-size: 40px;
-            color: #f06292;
+            // color: #f06292;
             text-shadow: 2px 2px 4px #880e4f;
         }
 
@@ -82,6 +84,7 @@
                 height: 47px;
                 box-shadow: 0 2px 13px 0 rgba(226, 158, 0, 0.48);
                 background: linear-gradient(315deg, #e2a300 0%, #e29500 100%);
+                // background-color: rgba(219, 179, 179, 0);
                 font-weight: 700;
                 font-size: 22px;
                 color: #000;
